@@ -26,7 +26,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item has-treeview">
-            <a href="{{ url('/') }}" class="nav-link">
+            <a href="/pertanyaans" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
@@ -35,14 +35,23 @@
             </a>
           </li>
           <li class="nav-item has-treeview">
-          <a href="{{ url('data-tables') }}" class="nav-link">
+          <a href="/pertanyaans" class="nav-link">
               <i class="nav-icon fas fa-table"></i>
               <p>
-                Tables
+                Pertanyaan
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
           </li>
+          <li class="nav-item has-treeview">
+            <a href="/pertanyaans" class="nav-link">
+                <i class="nav-icon fas fa-check"></i>
+                <p>
+                  Jawaban
+                  <i class="fas fa-angle-left right"></i>
+                </p>
+              </a>
+            </li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
