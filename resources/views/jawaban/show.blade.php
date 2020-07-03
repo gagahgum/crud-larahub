@@ -4,12 +4,11 @@
     <div class="ml-3 mt-3 mr-3">
         <div class="card">
             <div class="card-header">
-              <h3 class="card-title">Detail Pertanyaan</h3>
+              <h3 class="card-title">Detail Jawaban</h3>
             </div>
             <!-- /.card-header -->
             <div class="card-body">
-                <p>Judul : {{ $pertanyaan->judul}}</p>
-                <p>Isi : {{ $pertanyaan->isi}}</p>
+                <p>Isi : {{ $jawaban->isi}}</p>
             </div>
             <!-- /.card-body -->
           </div>

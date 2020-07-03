@@ -37,6 +37,7 @@ class JawabanController extends Controller
      */
     public function store(Request $request)
     {
+        // dd($request->all());
         $new_jawaban = JawabanModel::save($request->all());
 
         return redirect('/jawabans');

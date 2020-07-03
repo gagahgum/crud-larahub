@@ -44,7 +44,7 @@
             </a>
           </li>
           <li class="nav-item has-treeview">
-            <a href="/pertanyaans" class="nav-link">
+            <a href="/jawabans" class="nav-link">
                 <i class="nav-icon fas fa-check"></i>
                 <p>
                   Jawaban

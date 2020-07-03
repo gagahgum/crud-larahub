@@ -20,8 +20,7 @@ Class JawabanModel{
         // dd($request);
         $jawaban = DB::table('jawabans')
         ->where('jawaban_id', $id)
-        ->update(['judul'=>$request["judul"],
-        'isi'=>$request["isi"]]);
+        ->update(['isi'=>$request["isi"]]);
 
         return $jawaban;
     }

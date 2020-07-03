@@ -8,17 +8,13 @@
             </div>
             <!-- /.card-header -->
             <!-- form start -->
-        <form role="form" action="/pertanyaans/{{$pertanyaan->pertanyaan_id}}" method="POST">
+        <form role="form" action="/jawabans/{{$jawaban->jawaban_id}}" method="POST">
                 @csrf
                 @method('PUT')
               <div class="card-body">
                 <div class="form-group">
-                  <label for="judul">Judul Pertanyaan</label>
-                <input type="text" class="form-control" id="judul" name="judul" value="{{ $pertanyaan->judul }}" placeholder="Masukkan Judul">
-                </div>
-                <div class="form-group">
-                  <label for="isi">Isi Pertanyaan</label>
-                  <input type="text" class="form-control" id="isi" name="isi" value="{{ $pertanyaan->isi }}" placeholder="Masukkan Isi">
+                  <label for="isi">Isi Jawaban</label>
+                  <input type="text" class="form-control" id="isi" name="isi" value="{{ $jawaban->isi }}" placeholder="Masukkan Isi">
                 </div>
               </div>
               <!-- /.card-body -->
